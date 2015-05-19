@@ -47,9 +47,9 @@ Feel free to fork it, and share the changes.
 The project is released under version 2.0 of the [Apache License][license].
 
 [issues]: https://github.com/bernardo-mg/tabletop-stats/issues
-[javadoc-develop]: ftp://docs.wandrell.com/maven/tabletop-stats/apidocs
-[javadoc-release]: ftp://docs.wandrell.com/maven/tabletop-stats/apidocs
+[javadoc-develop]: http://docs.wandrell.com/maven/tabletop-stats/apidocs
+[javadoc-release]: http://docs.wandrell.com/maven/tabletop-stats/apidocs
 [license]: http://www.apache.org/licenses/LICENSE-2.0
 [scm]: https://github.com/bernardo-mg/tabletop-stats
-[site-develop]: ftp://docs.wandrell.com/maven/tabletop-stats
-[site-release]: ftp://docs.wandrell.com/maven/tabletop-stats
+[site-develop]: http://docs.wandrell.com/maven/tabletop-stats
+[site-release]: http://docs.wandrell.com/maven/tabletop-stats
