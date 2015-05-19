@@ -33,11 +33,11 @@ public final class DefaultSkillBox extends AbstractValueBox implements SkillBox 
     /**
      * The skill's descriptor.
      */
-    private final String   skillDescriptor;
+    private final String skillDescriptor;
     /**
      * The skill's name.
      */
-    private final String   skillName;
+    private final String skillName;
 
     /**
      * Copy constructor for {@code DefaultSkillBox}.
@@ -88,8 +88,8 @@ public final class DefaultSkillBox extends AbstractValueBox implements SkillBox 
     }
 
     /**
-     * Constructs a {@code DefaultSkillBox} with the specified name,
-     * descriptor and value.
+     * Constructs a {@code DefaultSkillBox} with the specified name, descriptor
+     * and value.
      * 
      * @param name
      *            the skill's name

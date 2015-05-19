@@ -24,7 +24,8 @@ import com.wandrell.tabletop.testing.stats.framework.test.unit.AbstractTestEvent
  * 
  * @author Bernardo Martínez Garrido
  */
-public final class TestEventOrderDefaultValueBox extends AbstractTestEventOrderDefaultSkillBox {
+public final class TestEventOrderDefaultValueBox extends
+        AbstractTestEventOrderDefaultSkillBox {
 
     /**
      * Constructs a {@code TestEventOrderDefaultValueBox}.

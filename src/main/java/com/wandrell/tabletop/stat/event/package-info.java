@@ -29,7 +29,8 @@
  * a value, and such a good example of how they meant to be applied are the
  * implementations of {@link com.wandrell.tabletop.stat.valuebox.ValueBox
  * ValueBox}, mainly the
- * {@link com.wandrell.tabletop.stat.valuebox.AbstractValueBoxEventFirer AbstractValueBox}.
+ * {@link com.wandrell.tabletop.stat.valuebox.AbstractValueBoxEventFirer
+ * AbstractValueBox}.
  */
 package com.wandrell.tabletop.stat.event;
 

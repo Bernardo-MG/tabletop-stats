@@ -64,14 +64,14 @@ public abstract class AbstractTestEventOrderDefaultSkillBox {
 
     /**
      * Tests that inside the {@code valueChanged} method of the
-     * {@code ValueChangeListener}, the current value of the {@code ValueBox}
-     * is the same as the new value on the {@code ValueChangeEvent}.
+     * {@code ValueChangeListener}, the current value of the {@code ValueBox} is
+     * the same as the new value on the {@code ValueChangeEvent}.
      */
     @Test
     public final void testSetValue() {
         final List<Integer> listResult; // List storing the tested value
         final Integer v;                // Value set on the ValueBox
-        
+
         listResult = new Vector<Integer>(1);
         listResult.add(0);
 

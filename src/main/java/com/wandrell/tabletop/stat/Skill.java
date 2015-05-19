@@ -34,8 +34,8 @@ package com.wandrell.tabletop.stat;
  * there is always the possibility of adding new skills to any model.
  * <p>
  * For those cases where a value should be handled along the identifiers, the
- * {@link com.wandrell.tabletop.stat.valuebox.SkillBox SkillBox}
- * interface should be used.
+ * {@link com.wandrell.tabletop.stat.valuebox.SkillBox SkillBox} interface
+ * should be used.
  * 
  * @author Bernardo Martínez Garrido
  */

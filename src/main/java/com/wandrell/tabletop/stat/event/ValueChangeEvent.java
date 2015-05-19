@@ -29,9 +29,9 @@ import java.util.EventObject;
  * while the new is the one that same field has after the event has happened.
  * The values on this event should be consistent with that.
  * <p>
- * Also, keeping these two values means the event can represent any change,
- * no matter if the value increased or decreased, that can be found out
- * by checking the values.
+ * Also, keeping these two values means the event can represent any change, no
+ * matter if the value increased or decreased, that can be found out by checking
+ * the values.
  * <p>
  * The main use of this event is handling changes made to a
  * {@link com.wandrell.tabletop.stat.valuebox.ValueBox ValueBox}, so any other

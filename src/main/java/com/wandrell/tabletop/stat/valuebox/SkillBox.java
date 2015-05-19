@@ -21,10 +21,10 @@ import com.wandrell.tabletop.stat.Skill;
  * Extension of {@link ValueBox} for skills.
  * <p>
  * Additionally to what the base interface offers, this one allows indicating a
- * name and a descriptor with the methods inherited from {@link Skill}.
- * Of course, this can also be used for named values, in which case the
- * descriptor can be hidden on the actual implementation, by inheriting this
- * class through composition.
+ * name and a descriptor with the methods inherited from {@link Skill}. Of
+ * course, this can also be used for named values, in which case the descriptor
+ * can be hidden on the actual implementation, by inheriting this class through
+ * composition.
  * <p>
  * Note that most of the times a simple {@code ValueBox} will be enough for any
  * model. If there is only a set number of values use the basic {@code ValueBox}

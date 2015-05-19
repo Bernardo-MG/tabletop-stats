@@ -27,8 +27,8 @@
  * {@link ValueBox} is the basic interface from which the other classes come. It
  * can store an {@code Integer}, sending events each time it is changed.
  * <p>
- * A more advanced version, {@link SkillBox} also allows giving a name,
- * and a descriptor, to the value. So a value can be clearly identified.
+ * A more advanced version, {@link SkillBox} also allows giving a name, and a
+ * descriptor, to the value. So a value can be clearly identified.
  * <p>
  * Additionally, an abstract implementation of {@code ValueBox}, called
  * {@link AbstractValueBoxEventFirer}, contains support for the value events, so

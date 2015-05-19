@@ -15,8 +15,8 @@
  */
 package com.wandrell.tabletop.stat.controller;
 
-import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Preconditions.checkNotNull;
 
 import com.google.common.math.IntMath;
 import com.wandrell.tabletop.stat.valuebox.ValueBox;

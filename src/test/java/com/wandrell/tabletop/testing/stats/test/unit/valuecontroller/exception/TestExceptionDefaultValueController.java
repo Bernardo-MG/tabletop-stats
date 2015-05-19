@@ -18,24 +18,24 @@ import com.wandrell.tabletop.stat.controller.ValueController;
  * @author Bernardo Martínez Garrido
  */
 public final class TestExceptionDefaultValueController {
-    
+
     /**
      * Constructs a {@code TestExceptionDefaultValueController}.
      */
-    public TestExceptionDefaultValueController(){
+    public TestExceptionDefaultValueController() {
         super();
     }
 
     /**
-     * Tests that the {@code setInterval} method throws an {@code IllegalArgumentException}
- * when the interval is invalid.
+     * Tests that the {@code setInterval} method throws an
+     * {@code IllegalArgumentException} when the interval is invalid.
      */
     @Test(expectedExceptions = IllegalArgumentException.class)
     public final void testSetInterval_Invalid() {
         final ValueController handler;
-        
+
         handler = new DefaultValueController();
-        
+
         handler.setInterval(10, 0);
     }
 }

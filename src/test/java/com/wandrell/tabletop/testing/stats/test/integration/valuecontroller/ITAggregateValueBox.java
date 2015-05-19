@@ -89,6 +89,7 @@ public final class ITAggregateValueBox {
         handler.decreaseValue();
         Assert.assertEquals((Integer) 1, value.getValue());
     }
+
     /**
      * Tests that the {@link ValueBox} is not modified by the
      * {@code decreaseValue()} method when the value is under the lower limit.
@@ -142,6 +143,7 @@ public final class ITAggregateValueBox {
         handler.increaseValue();
         Assert.assertEquals((Integer) 1, value.getValue());
     }
+
     /**
      * Tests that the {@link ValueBox} is not modified by the
      * {@code increaseValue()} method when the value is over the upper limit.

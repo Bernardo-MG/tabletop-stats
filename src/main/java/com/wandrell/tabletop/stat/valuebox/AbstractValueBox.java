@@ -76,7 +76,7 @@ public abstract class AbstractValueBox extends AbstractValueBoxEventFirer {
     }
 
     @Override
-    public  boolean equals(final Object obj) {
+    public boolean equals(final Object obj) {
         if (this == obj) {
             return true;
         }
@@ -123,7 +123,7 @@ public abstract class AbstractValueBox extends AbstractValueBoxEventFirer {
     }
 
     @Override
-    public  String toString() {
+    public String toString() {
         return MoreObjects.toStringHelper(this).add("storedValue", storedValue)
                 .toString();
     }

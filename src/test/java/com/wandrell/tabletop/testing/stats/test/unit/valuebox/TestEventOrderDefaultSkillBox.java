@@ -24,14 +24,14 @@ import com.wandrell.tabletop.testing.stats.framework.test.unit.AbstractTestEvent
  * 
  * @author Bernardo Martínez Garrido
  */
-public final class TestEventOrderDefaultSkillBox extends AbstractTestEventOrderDefaultSkillBox{
+public final class TestEventOrderDefaultSkillBox extends
+        AbstractTestEventOrderDefaultSkillBox {
 
     /**
      * Constructs a {@code TestEventOrderDefaultSkillBox}.
      */
     public TestEventOrderDefaultSkillBox() {
-        super(new DefaultSkillBox("skill",0));
+        super(new DefaultSkillBox("skill", 0));
     }
-
 
 }

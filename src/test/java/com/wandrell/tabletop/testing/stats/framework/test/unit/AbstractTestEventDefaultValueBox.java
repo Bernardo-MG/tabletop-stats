@@ -42,14 +42,14 @@ import com.wandrell.tabletop.stat.valuebox.ValueBox;
 public abstract class AbstractTestEventDefaultValueBox {
 
     /**
+     * {@code ValueBox} being tested.
+     */
+    private final ValueBox                         box;
+    /**
      * Argument captor to get the event from the listener.
      */
     private final ArgumentCaptor<ValueChangeEvent> captorEvent     = ArgumentCaptor
                                                                            .forClass(ValueChangeEvent.class);
-    /**
-     * {@code ValueBox} being tested.
-     */
-    private final ValueBox                         box;
     /**
      * Listener through which the captured event travels.
      */

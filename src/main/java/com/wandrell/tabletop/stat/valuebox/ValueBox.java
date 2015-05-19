@@ -19,16 +19,16 @@ import com.wandrell.tabletop.stat.event.ValueChangeListener;
 
 /**
  * Interface wrapping a value to allow listening to changes on it. This serves
- * to link the value to other classes, to implement logic such as that of derived
- * attributes.
+ * to link the value to other classes, to implement logic such as that of
+ * derived attributes.
  * <p>
- * A less abstract way of understanding the objective of this interface is
- * that it represents those values which are noted inside boxes on a character
- * sheet. That's the reason actually for the class' name.
+ * A less abstract way of understanding the objective of this interface is that
+ * it represents those values which are noted inside boxes on a character sheet.
+ * That's the reason actually for the class' name.
  * <p>
- * It should be noted that if it is used for handling derived attributes
- * then the {@link #setValue(Integer) setValue} method should be disabled, or
- * just empty.
+ * It should be noted that if it is used for handling derived attributes then
+ * the {@link #setValue(Integer) setValue} method should be disabled, or just
+ * empty.
  * <p>
  * The recommended way of handling this is actually hiding implementations of
  * {@code ValueBox} inside a class, so they can't be accessed directly, even
@@ -36,8 +36,8 @@ import com.wandrell.tabletop.stat.event.ValueChangeListener;
  * <p>
  * For example, if implementations of this interface are used to represent the
  * attributes of a character, then the class representing that character will
- * have a setter and getter for each attribute, and those method will call
- * the instances of {@code ValueBox}.
+ * have a setter and getter for each attribute, and those method will call the
+ * instances of {@code ValueBox}.
  * 
  * @author Bernardo Martínez Garrido
  */
@@ -72,7 +72,7 @@ public interface ValueBox {
     /**
      * Sets the value stored.
      * <p>
-     * If the value is not editable, as for example is the case with derived 
+     * If the value is not editable, as for example is the case with derived
      * values, this should be disabled.
      * 
      * @param value
