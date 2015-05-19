@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>150</y>
+      <w>340</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>bg=cyan
+/ValueController/
+--
+
+--
+/+setValueBox(box: ValueBox)/
+/+decreaseValue()/
+/+increaseValue()/
+/+isAbleToDecrease(): Boolean/
+/+isAbleToIncrease(): Boolean/
+/+getLowerLimit()/
+/+getUpperLimit()/
+/+setInterval(lowerLimit: Integer, upperLimit: Integer)/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>400</y>
+      <w>340</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+DefaultValueController
+--
+
+--
++setValueBox(box: ValueBox)
++decreaseValue()
++increaseValue()
++isAbleToDecrease(): Boolean
++isAbleToIncrease(): Boolean
++getLowerLimit()
++getUpperLimit()
++setInterval(lowerLimit: Integer, upperLimit: Integer)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>330</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+</diagram>

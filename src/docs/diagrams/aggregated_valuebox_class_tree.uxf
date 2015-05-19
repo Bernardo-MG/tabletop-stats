@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>100</y>
+      <w>400</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>bg=cyan
+/ValueBox/
+--
+
+--
+/+getValue(): Integer/
+/+setValue(value: Integer)/
+/+addValueChangeListener(listener: ValueChangeListener)/
+/+removeValueChangeListener(listener: ValueChangeListener)/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>210</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>270</y>
+      <w>400</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>bg=orange
+/AbstractValueBoxEventFirer/
+--
+
+--
++addValueChangeListener(listener: ValueChangeListener)
++removeValueChangeListener(listener: ValueChangeListener)
+#fireValueChangedEvent(event: ValueChangeEvent)
+#getListeners(): Collection&lt;ValueChangeListener&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>440</y>
+      <w>400</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+AggregatedValueBox
+--
+-aggregated: Integer
+--
++getValue(): Integer
++getValueBoxes(): Collection&lt;ValueBox&gt;
++addValueBox(box: ValueBox)
++setValueBoxes(boxes: Collection&lt;ValueBox&gt;)
++removeValueBox(box: ValueBox)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>380</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+</diagram>
