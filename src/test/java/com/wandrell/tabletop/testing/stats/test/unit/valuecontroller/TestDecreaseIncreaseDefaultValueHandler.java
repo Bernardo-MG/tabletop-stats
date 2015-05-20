@@ -19,9 +19,9 @@ import org.mockito.Mockito;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.wandrell.tabletop.stat.controller.DefaultValueController;
-import com.wandrell.tabletop.stat.controller.ValueController;
-import com.wandrell.tabletop.stat.valuebox.ValueBox;
+import com.wandrell.tabletop.stats.controller.DefaultValueController;
+import com.wandrell.tabletop.stats.controller.ValueController;
+import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
  * Unit test for {@link DefaultValueController}, checking that the

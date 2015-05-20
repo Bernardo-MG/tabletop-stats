@@ -13,11 +13,11 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.stat.valuebox;
+package com.wandrell.tabletop.stats.valuebox;
 
 /**
  * Default implementation of
- * {@link com.wandrell.tabletop.stat.valuebox.ValueBox ValueBox}.
+ * {@link com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox}.
  * 
  * @author Bernardo Martínez Garrido
  */

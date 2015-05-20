@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.stat.event;
+package com.wandrell.tabletop.stats.event;
 
 import java.util.EventListener;
 
@@ -26,7 +26,7 @@ import java.util.EventListener;
  * additional information which may be required.
  * <p>
  * The main use of this interface is reacting to changes on the
- * {@link com.wandrell.tabletop.stat.valuebox.ValueBox ValueBox} value.
+ * {@link com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox} value.
  * 
  * @author Bernardo Martínez Garrido
  * @see ValueChangeEvent

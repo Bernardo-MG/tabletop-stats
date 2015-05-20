@@ -18,9 +18,9 @@ package com.wandrell.tabletop.testing.stats.test.integration.valuebox;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.wandrell.tabletop.stat.valuebox.AggregatedValueBox;
-import com.wandrell.tabletop.stat.valuebox.DefaultValueBox;
-import com.wandrell.tabletop.stat.valuebox.ValueBox;
+import com.wandrell.tabletop.stats.valuebox.AggregatedValueBox;
+import com.wandrell.tabletop.stats.valuebox.DefaultValueBox;
+import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
  * Integration test for {@link AggregatedValueBox}, checking that the stored

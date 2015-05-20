@@ -13,9 +13,9 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.stat.valuebox;
+package com.wandrell.tabletop.stats.valuebox;
 
-import com.wandrell.tabletop.stat.Skill;
+import com.wandrell.tabletop.stats.Skill;
 
 /**
  * Extension of {@link ValueBox} for skills.

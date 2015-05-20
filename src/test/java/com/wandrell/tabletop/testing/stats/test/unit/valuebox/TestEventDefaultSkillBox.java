@@ -15,7 +15,7 @@
  */
 package com.wandrell.tabletop.testing.stats.test.unit.valuebox;
 
-import com.wandrell.tabletop.stat.valuebox.DefaultSkillBox;
+import com.wandrell.tabletop.stats.valuebox.DefaultSkillBox;
 import com.wandrell.tabletop.testing.stats.framework.test.unit.AbstractTestEventDefaultValueBox;
 
 /**

@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.stat.valuebox;
+package com.wandrell.tabletop.stats.valuebox;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -25,8 +25,8 @@ import java.util.LinkedList;
 
 import com.google.common.base.MoreObjects;
 import com.google.common.math.IntMath;
-import com.wandrell.tabletop.stat.event.ValueChangeEvent;
-import com.wandrell.tabletop.stat.event.ValueChangeListener;
+import com.wandrell.tabletop.stats.event.ValueChangeEvent;
+import com.wandrell.tabletop.stats.event.ValueChangeListener;
 
 /**
  * Implementation of {@link ValueBox} which stores a collection of other

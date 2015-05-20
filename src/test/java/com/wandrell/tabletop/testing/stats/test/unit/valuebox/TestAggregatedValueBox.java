@@ -19,8 +19,8 @@ import org.mockito.Mockito;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.wandrell.tabletop.stat.valuebox.AggregatedValueBox;
-import com.wandrell.tabletop.stat.valuebox.ValueBox;
+import com.wandrell.tabletop.stats.valuebox.AggregatedValueBox;
+import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
  * Unit test for {@link AggregatedValueBox}, checking that the stored value is

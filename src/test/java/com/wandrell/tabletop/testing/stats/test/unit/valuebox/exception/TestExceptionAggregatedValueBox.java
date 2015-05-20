@@ -2,7 +2,7 @@ package com.wandrell.tabletop.testing.stats.test.unit.valuebox.exception;
 
 import org.testng.annotations.Test;
 
-import com.wandrell.tabletop.stat.valuebox.AggregatedValueBox;
+import com.wandrell.tabletop.stats.valuebox.AggregatedValueBox;
 
 /**
  * Unit test for {@link AggregatedValueBox}, checking that exceptions are thrown

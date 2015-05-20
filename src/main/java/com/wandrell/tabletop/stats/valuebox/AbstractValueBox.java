@@ -13,18 +13,18 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.stat.valuebox;
+package com.wandrell.tabletop.stats.valuebox;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import java.util.Objects;
 
 import com.google.common.base.MoreObjects;
-import com.wandrell.tabletop.stat.event.ValueChangeEvent;
+import com.wandrell.tabletop.stats.event.ValueChangeEvent;
 
 /**
  * Abstract implementation of
- * {@link com.wandrell.tabletop.stat.valuebox.ValueBox ValueBox} offering events
+ * {@link com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox} offering events
  * and a stored value.
  * <p>
  * This is to be used when implementing a custom extension of {@code ValueBox}.

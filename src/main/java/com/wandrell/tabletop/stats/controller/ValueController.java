@@ -13,13 +13,13 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.stat.controller;
+package com.wandrell.tabletop.stats.controller;
 
-import com.wandrell.tabletop.stat.valuebox.ValueBox;
+import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
  * Controller to increase and decrease a
- * {@link com.wandrell.tabletop.stat.valuebox.ValueBox ValueBox} through an UI.
+ * {@link com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox} through an UI.
  * <p>
  * This is meant to be used on a desktop application, where the
  * {@link #decreaseValue() decreaseValue} and {@link #increaseValue()

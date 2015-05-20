@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.stat.event;
+package com.wandrell.tabletop.stats.event;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -34,11 +34,11 @@ import java.util.EventObject;
  * the values.
  * <p>
  * The main use of this event is handling changes made to a
- * {@link com.wandrell.tabletop.stat.valuebox.ValueBox ValueBox}, so any other
+ * {@link com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox}, so any other
  * {@code ValueBox} which derives from it can update it's own value.
  * 
  * @author Bernardo Martínez Garrido
- * @see com.wandrell.tabletop.stat.valuebox.ValueBox ValueBox
+ * @see com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox
  */
 public final class ValueChangeEvent extends EventObject {
 

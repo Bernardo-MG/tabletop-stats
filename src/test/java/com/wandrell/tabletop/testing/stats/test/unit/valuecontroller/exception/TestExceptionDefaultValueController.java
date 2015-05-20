@@ -2,8 +2,8 @@ package com.wandrell.tabletop.testing.stats.test.unit.valuecontroller.exception;
 
 import org.testng.annotations.Test;
 
-import com.wandrell.tabletop.stat.controller.DefaultValueController;
-import com.wandrell.tabletop.stat.controller.ValueController;
+import com.wandrell.tabletop.stats.controller.DefaultValueController;
+import com.wandrell.tabletop.stats.controller.ValueController;
 
 /**
  * Unit test for {@link DefaultValueController}, checking that exceptions are

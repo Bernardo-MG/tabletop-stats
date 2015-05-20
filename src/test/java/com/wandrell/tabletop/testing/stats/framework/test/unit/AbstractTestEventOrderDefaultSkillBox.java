@@ -23,9 +23,9 @@ import java.util.Vector;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.wandrell.tabletop.stat.event.ValueChangeEvent;
-import com.wandrell.tabletop.stat.event.ValueChangeListener;
-import com.wandrell.tabletop.stat.valuebox.ValueBox;
+import com.wandrell.tabletop.stats.event.ValueChangeEvent;
+import com.wandrell.tabletop.stats.event.ValueChangeListener;
+import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
  * Abstract unit test for {@link ValueBox}, checking that event generation

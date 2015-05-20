@@ -34,5 +34,5 @@
  * {@link AbstractValueBoxEventFirer}, contains support for the value events, so
  * new implementation of the interface can be created with ease.
  */
-package com.wandrell.tabletop.stat.valuebox;
+package com.wandrell.tabletop.stats.valuebox;
 

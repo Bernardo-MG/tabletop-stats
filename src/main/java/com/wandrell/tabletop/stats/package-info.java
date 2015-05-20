@@ -21,9 +21,9 @@
  * example a character's strength.
  * <p>
  * There are many cases where these values appear, such as for example when
- * handling skills, for which the {@link com.wandrell.tabletop.stat.Skill Skill}
+ * handling skills, for which the {@link com.wandrell.tabletop.stats.Skill Skill}
  * interface is useful, or when modifying them through an UI, where the
- * {@link com.wandrell.tabletop.stat.controller.ValueController ValueController}
+ * {@link com.wandrell.tabletop.stats.controller.ValueController ValueController}
  * is very helpful.
  * <p>
  * But the classes in these packages are mostly meant to be used on the most
@@ -34,9 +34,9 @@
  * hitpoints value when one of those two attributes changes.
  * <p>
  * This is done with the classes in the
- * {@link com.wandrell.tabletop.stat.valuebox valuebox} package, with a bit of
- * help from the more generic {@link com.wandrell.tabletop.stat.event event}
+ * {@link com.wandrell.tabletop.stats.valuebox valuebox} package, with a bit of
+ * help from the more generic {@link com.wandrell.tabletop.stats.event event}
  * package.
  */
-package com.wandrell.tabletop.stat;
+package com.wandrell.tabletop.stats;
 

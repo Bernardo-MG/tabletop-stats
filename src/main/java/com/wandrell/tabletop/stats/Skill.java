@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.stat;
+package com.wandrell.tabletop.stats;
 
 /**
  * Interface for representing a stat with a name and descriptor. These usually
@@ -34,7 +34,7 @@ package com.wandrell.tabletop.stat;
  * there is always the possibility of adding new skills to any model.
  * <p>
  * For those cases where a value should be handled along the identifiers, the
- * {@link com.wandrell.tabletop.stat.valuebox.SkillBox SkillBox} interface
+ * {@link com.wandrell.tabletop.stats.valuebox.SkillBox SkillBox} interface
  * should be used.
  * 
  * @author Bernardo Martínez Garrido

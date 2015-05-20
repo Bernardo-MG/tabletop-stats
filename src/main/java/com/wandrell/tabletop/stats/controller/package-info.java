@@ -15,17 +15,17 @@
  */
 /**
  * Controllers for handling a
- * {@link com.wandrell.tabletop.stat.valuebox.ValueBox ValueBox} on UIs.
+ * {@link com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox} on UIs.
  * <p>
  * These classes allow direct modification of a {@code ValueBox}, and are meant
  * to be part of the controller layer of a desktop application, where the UI is
  * closely linked to the model.
  * <p>
  * The only class currently contained in the package, the
- * {@link com.wandrell.tabletop.stat.controller.ValueController ValueController}
+ * {@link com.wandrell.tabletop.stats.controller.ValueController ValueController}
  * , allows increasing and decreasing a {@code ValueBox} with the use of
  * buttons, and a series of constraints such as the interval in which the value
  * can move.
  */
-package com.wandrell.tabletop.stat.controller;
+package com.wandrell.tabletop.stats.controller;
 

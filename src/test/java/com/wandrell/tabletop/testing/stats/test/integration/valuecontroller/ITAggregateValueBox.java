@@ -18,10 +18,10 @@ package com.wandrell.tabletop.testing.stats.test.integration.valuecontroller;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.wandrell.tabletop.stat.controller.DefaultValueController;
-import com.wandrell.tabletop.stat.controller.ValueController;
-import com.wandrell.tabletop.stat.valuebox.DefaultValueBox;
-import com.wandrell.tabletop.stat.valuebox.ValueBox;
+import com.wandrell.tabletop.stats.controller.DefaultValueController;
+import com.wandrell.tabletop.stats.controller.ValueController;
+import com.wandrell.tabletop.stats.valuebox.DefaultValueBox;
+import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
  * Integration test for {@link DefaultValueController}, checking that the

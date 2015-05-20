@@ -17,20 +17,20 @@
  * Provides an API for value related events.
  * <p>
  * The package is composed in first place of the
- * {@link com.wandrell.tabletop.stat.event.ValueChangeEvent ValueChangeEvent},
+ * {@link com.wandrell.tabletop.stats.event.ValueChangeEvent ValueChangeEvent},
  * which stores the status of a value before and after the related event has
  * happened.
  * <p>
  * But also offers a basic listener,
- * {@link com.wandrell.tabletop.stat.event.ValueChangeListener
+ * {@link com.wandrell.tabletop.stats.event.ValueChangeListener
  * ValueChangeListener}, to keep watch on those events.
  * <p>
  * These are meant to be used on those cases where there exists a dependency to
  * a value, and such a good example of how they meant to be applied are the
- * implementations of {@link com.wandrell.tabletop.stat.valuebox.ValueBox
+ * implementations of {@link com.wandrell.tabletop.stats.valuebox.ValueBox
  * ValueBox}, mainly the
- * {@link com.wandrell.tabletop.stat.valuebox.AbstractValueBoxEventFirer
+ * {@link com.wandrell.tabletop.stats.valuebox.AbstractValueBoxEventFirer
  * AbstractValueBox}.
  */
-package com.wandrell.tabletop.stat.event;
+package com.wandrell.tabletop.stats.event;
 
