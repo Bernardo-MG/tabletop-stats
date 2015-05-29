@@ -54,10 +54,10 @@ Feel free to fork it, and share the changes.
 ## License
 The project is released under version 2.0 of the [Apache License][license].
 
-[issues]: https://github.com/bernardo-mg/tabletop-stats/issues
+[issues]: https://github.com/bernardo-mg/tabletop-stats-java/issues
 [javadoc-develop]: http://docs.wandrell.com/maven/tabletop-stats/apidocs
 [javadoc-release]: http://docs.wandrell.com/maven/tabletop-stats/apidocs
 [license]: http://www.apache.org/licenses/LICENSE-2.0
-[scm]: https://github.com/bernardo-mg/tabletop-stats
+[scm]: https://github.com/bernardo-mg/tabletop-stats-java
 [site-develop]: http://docs.wandrell.com/development/maven/tabletop-stats
 [site-release]: http://docs.wandrell.com/development/maven/tabletop-stats
