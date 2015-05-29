@@ -24,8 +24,8 @@ import com.wandrell.tabletop.stats.event.ValueChangeEvent;
 
 /**
  * Abstract implementation of
- * {@link com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox} offering events
- * and a stored value.
+ * {@link com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox} offering
+ * events and a stored value.
  * <p>
  * This is to be used when implementing a custom extension of {@code ValueBox}.
  * 

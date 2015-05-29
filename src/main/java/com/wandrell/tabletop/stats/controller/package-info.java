@@ -22,10 +22,10 @@
  * closely linked to the model.
  * <p>
  * The only class currently contained in the package, the
- * {@link com.wandrell.tabletop.stats.controller.ValueController ValueController}
- * , allows increasing and decreasing a {@code ValueBox} with the use of
- * buttons, and a series of constraints such as the interval in which the value
- * can move.
+ * {@link com.wandrell.tabletop.stats.controller.ValueController
+ * ValueController} , allows increasing and decreasing a {@code ValueBox} with
+ * the use of buttons, and a series of constraints such as the interval in which
+ * the value can move.
  */
 package com.wandrell.tabletop.stats.controller;
 

@@ -21,10 +21,10 @@
  * example a character's strength.
  * <p>
  * There are many cases where these values appear, such as for example when
- * handling skills, for which the {@link com.wandrell.tabletop.stats.Skill Skill}
- * interface is useful, or when modifying them through an UI, where the
- * {@link com.wandrell.tabletop.stats.controller.ValueController ValueController}
- * is very helpful.
+ * handling skills, for which the {@link com.wandrell.tabletop.stats.Skill
+ * Skill} interface is useful, or when modifying them through an UI, where the
+ * {@link com.wandrell.tabletop.stats.controller.ValueController
+ * ValueController} is very helpful.
  * <p>
  * But the classes in these packages are mostly meant to be used on the most
  * complex cases, when there is an interdependency between said values.
