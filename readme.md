@@ -60,4 +60,4 @@ The project is released under version 2.0 of the [Apache License][license].
 [license]: http://www.apache.org/licenses/LICENSE-2.0
 [scm]: https://github.com/bernardo-mg/tabletop-stats-java
 [site-develop]: http://docs.wandrell.com/development/maven/tabletop-stats
-[site-release]: http://docs.wandrell.com/development/maven/tabletop-stats
+[site-release]: http://docs.wandrell.com/maven/tabletop-stats
