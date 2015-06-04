@@ -11,7 +11,7 @@
 
 	<name>Tabletop Stats Library</name>
 	<description>Java library to handle statistics and attributes on tabletop games.</description>
-	<url />
+	<url>https://github.com/bernardo-mg/tabletop-stats-java</url>
 
 	<licenses>
 		<license>
