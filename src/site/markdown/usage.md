@@ -15,9 +15,9 @@ To use the library on Maven the Bintray repository should be added to the reposi
 		<snapshots>
 			<enabled>false</enabled>
 		</snapshots>
-		<id>bintray-bernardo-mg-maven</id>
-		<name>bintray</name>
-		<url>http://dl.bintray.com/bernardo-mg/maven</url>
+		<id>bintray-tabletop-toolkits</id>
+		<name>Tabletop Toolkits Bintray repository</name>
+		<url>http://dl.bintray.com/bernardo-mg/tabletop-toolkits</url>
 	</repository>
 	...
 </repositories>
@@ -61,4 +61,4 @@ dependencies {
 
 Of course, the 'x.y.z' version should be set to the current one for the project.
 
-[bintray]: https://bintray.com/bernardo-mg/maven/java-patterns/view}Bintray
+[bintray]: https://bintray.com/bernardo-mg/tabletop-toolkits/stats/view}Bintray
