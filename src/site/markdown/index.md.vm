@@ -20,8 +20,8 @@ If you are going to use this library, it will be for the most complex cases, suc
 
 A series of small patterns for representing tabletop statistics are included on this library, such as:
 
-- Event-based observable wrappers for values, so dependencies and derived values can be built.
-- A controller for editing said wrappers through an UI.
+- Event-based observable wrappers for values, so dependencies and derived values can be built [>>](./valuebox.html)
+- A controller for editing said wrappers through an UI [>>](./valuecontroller.html)
 - Skills.
 
 ---
