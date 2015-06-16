@@ -25,7 +25,7 @@
 		<connection>scm:git:https://github.com/bernardo-mg/tabletop-stats-java.git</connection>
 		<developerConnection>scm:git:https://github.com/bernardo-mg/tabletop-stats-java.git</developerConnection>
 		<tag>head</tag>
-		<url>https://github.com/bernardo-mg/tabletop-stats-java</url>
+		<url>https://www.github.com/bernardo-mg/tabletop-stats-java</url>
 	</scm>
 
 	<issueManagement>
@@ -139,12 +139,15 @@
 		<extension.wagon.version>2.8</extension.wagon.version>
 		<!-- Maven Site -->
 		<site.skin.version>1.1.1</site.skin.version>
+		<site.description>A bunch of helpful classes for handling statistics on tabletop games.</site.description>
 		<site.download>https://bintray.com/bernardo-mg/tabletop-toolkits/stats/view</site.download>
 		<javaVersion>JDK 7, JDK 8 and OpenJDK 7</javaVersion>
 		<scmName>GitHub</scmName>
 		<scmURL>${project.scm.url}</scmURL>
 		<ciName>${project.ciManagement.system}</ciName>
 		<ciURL>${project.ciManagement.url}</ciURL>
+		<bintrayURL>https://bintray.com/bernardo-mg/tabletop-toolkits/stats/view</bintrayURL>
+		<mavenURL>http://mvnrepository.com/artifact/com.wandrell.tabletop/stats</mavenURL>
 		<license>Apache 2.0</license>
 	</properties>
 
