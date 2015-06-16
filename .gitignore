@@ -44,6 +44,10 @@ local.properties
 /src/main/resources/rebel.xml
 .springBeans
 
+# IntelliJ Idea fileas
+.idea
+stats.iml
+
 # Windows files #
 Thumbs.db
 Desktop.ini
