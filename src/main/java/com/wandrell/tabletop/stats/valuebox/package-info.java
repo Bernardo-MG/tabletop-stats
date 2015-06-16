@@ -24,15 +24,19 @@
  * Such dependencies can be handled thanks to the event-based containers on this
  * package.
  * <p>
- * {@link ValueBox} is the basic interface from which the other classes come. It
- * can store an {@code Integer}, sending events each time it is changed.
+ * {@link com.wandrell.tabletop.stats.valuebox.ValueBox ValueBox} is the basic
+ * interface from which the other classes come. It can store an {@code Integer},
+ * sending events each time it is changed.
  * <p>
- * A more advanced version, {@link SkillBox} also allows giving a name, and a
- * descriptor, to the value. So a value can be clearly identified.
+ * A more advanced version,
+ * {@link com.wandrell.tabletop.stats.valuebox.SkillBox SkillBox} also allows
+ * giving a name, and a descriptor, to the value. So a value can be clearly
+ * identified.
  * <p>
  * Additionally, an abstract implementation of {@code ValueBox}, called
- * {@link AbstractValueBoxEventFirer}, contains support for the value events, so
- * new implementation of the interface can be created with ease.
+ * {@link com.wandrell.tabletop.stats.valuebox.AbstractValueBoxEventFirer
+ * AbstractValueBoxEventFirer}, contains support for the value events, so new
+ * implementation of the interface can be created with ease.
  */
 package com.wandrell.tabletop.stats.valuebox;
 
