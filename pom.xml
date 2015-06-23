@@ -6,7 +6,7 @@
 
 	<groupId>com.wandrell.tabletop</groupId>
 	<artifactId>stats</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Tabletop Stats Library</name>
@@ -30,12 +30,12 @@
 
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/bernardo-mg/tabletop-stats-java/issues</url>
+		<url>https://www.github.com/bernardo-mg/tabletop-stats-java/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>Travis CI</system>
-		<url>https://travis-ci.org/bernardo-mg/tabletop-stats-java</url>
+		<url>https://travis-ci.org/Bernardo-MG/tabletop-stats-java</url>
 		<notifiers />
 	</ciManagement>
 
