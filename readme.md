@@ -14,7 +14,6 @@ Problems such as derived statistics (like hitpoints which must increase if the s
 [![Development javadocs](https://img.shields.io/badge/javadocs-develop-blue.svg)][javadoc-develop]
 
 ## Documentation
-## Documentation
 
 Documentation is always generated for the latest release, kept in the 'master' branch:
 
@@ -32,7 +31,7 @@ The documentation site sources come along the source code (as it is a Maven site
 $ mvn site
 ```
 
-## Building the code
+## Usage
 
 The application is coded in Java, using Maven to manage the project.
 
