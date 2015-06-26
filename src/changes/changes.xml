@@ -23,6 +23,9 @@
 			</action>
 		</release>
 		<release version="0.1.2" date="2015-06-16" description="Corrections">
+			<action dev="bmg" type="update">
+				Changed Maven site look.
+			</action>
 			<action dev="bmg" type="fix">
 				Corrections to the Maven site.
 			</action>
