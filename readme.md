@@ -69,7 +69,7 @@ If you wish to fork or modify the code, visit the [GitHub project page][scm], wh
 
 ## License
 
-The project is released under version 2.0 of the [Apache License][license].
+The project has been released under version 2.0 of the [Apache License][license].
 
 [bintray-repo]: https://bintray.com/bernardo-mg/tabletop-toolkits/stats/view
 [maven-repo]: http://mvnrepository.com/artifact/com.wandrell.tabletop/stats
