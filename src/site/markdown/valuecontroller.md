@@ -4,7 +4,7 @@ Controller for modifying a ValueBox through UI operations. And includes a few ad
 
 These are meant to be used on a desktop application, where there is a close proximity between the UI and the business layer.
 
-[![ValueController class tree][value_controller-class_tree]][value\_controller-class\_tree]
+[![ValueController class tree][value_controller-class_tree]][value_controller-class_tree]
 
 ## Interface
 

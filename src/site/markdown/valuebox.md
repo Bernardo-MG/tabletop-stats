@@ -12,7 +12,7 @@ There is an additional interface, the [SkillBox][skill_box], which additionally 
 
 ### Default implementations
 
-[![ValueBox class tree][value_box-class_tree]][value\_box-class\_tree]
+[![ValueBox class tree][value_box-class_tree]][value_box-class_tree]
 
 Two default implementations are offered. [DefaultValueBox][default_value_box], and [DefaultSkillBox][default_skill_box]. These are straightforward implementations, which cover most of the use cases.
 
@@ -24,7 +24,7 @@ It just takes care of the events and nothing else, with a very simple implementa
 
 Note that prior this, the required event should be created.
 
-[![ValueBox event sequence][value_box_event-sequence]][value\_box\_event-sequence]
+[![ValueBox event sequence][value_box_event-sequence]][value_box_event-sequence]
 
 Handling events through the listener is very simple and straightforward. The listener will be an adapter, allowing the observer to actually observe the ValueBox, and be warned each time it suffers any modification.
 
@@ -32,16 +32,16 @@ Handling events through the listener is very simple and straightforward. The lis
 
 ### Aggregated ValueBox
 
-[![AggregatedValueBox class tree][aggregated_value_box-class_tree]][aggregated_value_box-class_tree]
+[![AggregatedValueBox class tree][aggregatedvalueboxclasstree]][aggregatedvalueboxclasstree]
 
 A common type of derived stat, the aggregated stat is composed of the summation of a series of other stats, and is updated when any of them changes.
 
-This is represented by the [AggregatedValueBox][aggregated_value_box]. This keeps a collection of ValueBoxes, and an internal value with the summation. Said value will only be updated when needed (thanks to the use of listeners), so querying it will be always a linear operation.
+This is represented by the [AggregatedValueBox][aggregatedvaluebox]. This keeps a collection of ValueBoxes, and an internal value with the summation. Said value will only be updated when needed (thanks to the use of listeners), so querying it will be always a linear operation.
 
 It should be noted that while the setValue exists on this ValueBox, it is disabled, and will throw an UnsupportedOperationException.
 
-[aggregated_value_box]: ./apidocs/com/wandrell/tabletop/stat/valuebox/AggregatedValueBox.html
-[aggregated_value_box-class_tree]: ./images/aggregated_valuebox_class_tree.png
+[aggregatedvaluebox]: ./apidocs/com/wandrell/tabletop/stat/valuebox/AggregatedValueBox.html
+[aggregatedvalueboxclasstree]: ./images/aggregated_valuebox_class_tree.png
 [default_skill_box]: ./apidocs/com/wandrell/tabletop/stat/valuebox/DefaultSkillBox.html
 [default_value_box]: ./apidocs/com/wandrell/tabletop/stat/valuebox/DefaultValueBox.html
 [skill_box]: ./apidocs/com/wandrell/tabletop/stat/valuebox/SkillBox.html
