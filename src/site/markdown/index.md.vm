@@ -14,8 +14,6 @@ Not all the cases are covered here, actually it is encouraged to avoid most of t
 
 If you are going to use this library, it will be for the most complex cases, such as handling skills, or values with dependencies, like derived attributes.
 
----
-
 # An overview
 
 A series of small patterns for representing tabletop statistics are included on this library, such as:
