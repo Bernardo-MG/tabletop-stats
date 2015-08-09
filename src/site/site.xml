@@ -11,7 +11,7 @@
 
 	<custom>
 		<skinConfig>
-			<keywords>Maven, Java, library</keywords>
+			<keywords>Java, tabletop, RPG, stats</keywords>
 			<descriptionUrl>Check the documentation for ${projectName}</descriptionUrl>
 			<twitterSite>@${developerId}</twitterSite>
 			<interpreters>
