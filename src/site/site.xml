@@ -13,7 +13,7 @@
 		<skinConfig>
 			<keywords>Java, tabletop, RPG, stats</keywords>
 			<descriptionUrl>Check the documentation for ${projectName}</descriptionUrl>
-			<twitterSite>@${developerId}</twitterSite>
+			<twitterSite>@wandrell</twitterSite>
 			<interpreters>
 				<interpreter>JDK 7</interpreter>
 				<interpreter>JDK 8</interpreter>
