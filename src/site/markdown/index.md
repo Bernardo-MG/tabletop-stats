@@ -6,7 +6,9 @@ These are those values you see in the character sheet, such as the strength and 
 
 Or the points you have to distribute during character creation, or the unit's valoration in a wargame, or the skills tree.
 
-# What is this library for?
+---
+
+## What is this library for?
 
 As part of the Tabletop Toolkits project, this library is used to represent the stats, attributes and skills used on tabletop games.
 
@@ -14,23 +16,13 @@ Not all the cases are covered here, actually it is encouraged to avoid most of t
 
 If you are going to use this library, it will be for the most complex cases, such as handling skills, or values with dependencies, like derived attributes.
 
----
-
-# An overview
+## An overview
 
 A series of small patterns for representing tabletop statistics are included on this library, such as:
 
-- Event-based observable wrappers for values, so dependencies and derived values can be built [>>](./valuebox.html)
-- A controller for editing said wrappers through an UI [>>](./valuecontroller.html)
+- [Event-based observable wrappers for values][valuebox], so dependencies and derived values can be built.
+- [A controller for editing said wrappers through an UI][valuecontroller].
 - Skills.
 
----
-
-# About the code
-
-The code is open source and freely accessible. If you want to do any kind of modification just fork it from the repository.
-
-- Java version: ${javaVersion}
-- License: [${license}](./license.html)
-- SCM: [${scmName}](${scmURL})
-- CI: [${ciName}](${ciURL})
+[valuebox]: ./valuebox.html
+[valuecontroller]: ./valuecontroller.html
