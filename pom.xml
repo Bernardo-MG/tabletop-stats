@@ -26,12 +26,12 @@
 		<connection>scm:git:https://github.com/bernardo-mg/tabletop-stats-java.git</connection>
 		<developerConnection>scm:git:https://github.com/bernardo-mg/tabletop-stats-java.git</developerConnection>
 		<tag>head</tag>
-		<url>https://www.github.com/bernardo-mg/tabletop-stats-java</url>
+		<url>https://github.com/bernardo-mg/tabletop-stats-java</url>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://www.github.com/bernardo-mg/tabletop-stats-java/issues</url>
+		<url>https://github.com/bernardo-mg/tabletop-stats-java/issues</url>
 	</issueManagement>
 
 	<ciManagement>
