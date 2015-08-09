@@ -22,7 +22,7 @@
 				Updated support files.
 			</action>
 		</release>
-		<release version="0.1.2" date="2015-06-16" description="Corrections">
+		<release version="0.1.2" date="2015-08-09" description="Maven site changes">
 			<action dev="bmg" type="update">
 				Changed Maven site look.
 			</action>
