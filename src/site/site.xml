@@ -49,12 +49,14 @@
 
 	<body>
 		<menu name="General Info" inherit="top">
-			<item name="Acquire" href="./acquire.html" />
-			<item name="Changes Log" href="./changes-report.html" />
-			<item name="JavaDocs" href="./apidocs/" />
+            <item name="Acquire" href="./acquire.html" />
+            <item name="Usage" href="./usage.html" />
+            <item name="Changes Log" href="./changes-report.html" />
+            <item name="JavaDocs" href="./apidocs/" />
 		</menu>
 		<menu name="Documentation" inherit="bottom">
 			<item name="Acquire" href="./acquire.html" />
+            <item name="Usage" href="./usage.html" />
 			<item name="About the stats" href="./stats.html" />
 			<item name="Events" href="./events.html" />
 			<item name="ValueBox" href="./valuebox.html" />
