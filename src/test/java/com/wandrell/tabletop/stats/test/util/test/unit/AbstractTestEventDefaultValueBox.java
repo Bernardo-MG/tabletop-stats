@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.testing.stats.framework.test.unit;
+package com.wandrell.tabletop.stats.test.util.test.unit;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

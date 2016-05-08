@@ -13,24 +13,24 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.testing.stats.test.unit.valuebox;
+package com.wandrell.tabletop.stats.test.unit.valuebox;
 
+import com.wandrell.tabletop.stats.test.util.test.unit.AbstractTestEventOrderDefaultSkillBox;
 import com.wandrell.tabletop.stats.valuebox.DefaultSkillBox;
-import com.wandrell.tabletop.testing.stats.framework.test.unit.AbstractTestEventDefaultValueBox;
 
 /**
  * Unit tests for {@link DefaultSkillBox} implementing
- * {@code AbstractTestEventDefaultValueBox}.
+ * {@code AbstractTestEventOrderDefaultSkillBox}.
  * 
  * @author Bernardo Martínez Garrido
  */
-public final class TestEventDefaultSkillBox extends
-        AbstractTestEventDefaultValueBox {
+public final class TestEventOrderDefaultSkillBox extends
+        AbstractTestEventOrderDefaultSkillBox {
 
     /**
-     * Constructs a {@code TestEventDefaultSkillBox}.
+     * Constructs a {@code TestEventOrderDefaultSkillBox}.
      */
-    public TestEventDefaultSkillBox() {
+    public TestEventOrderDefaultSkillBox() {
         super(new DefaultSkillBox("skill", 0));
     }
 

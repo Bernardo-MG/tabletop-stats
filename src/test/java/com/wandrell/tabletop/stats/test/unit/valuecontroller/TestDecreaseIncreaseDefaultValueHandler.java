@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.testing.stats.test.unit.valuecontroller;
+package com.wandrell.tabletop.stats.test.unit.valuecontroller;
 
 import org.mockito.Mockito;
 import org.testng.Assert;

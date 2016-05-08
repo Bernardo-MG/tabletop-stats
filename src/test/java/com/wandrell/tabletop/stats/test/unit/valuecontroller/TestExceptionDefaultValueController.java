@@ -1,4 +1,4 @@
-package com.wandrell.tabletop.testing.stats.test.unit.valuecontroller.exception;
+package com.wandrell.tabletop.stats.test.unit.valuecontroller;
 
 import org.testng.annotations.Test;
 

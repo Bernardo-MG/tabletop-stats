@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="statsIntegration" parallel="instances"
+<suite name="StatsIntegration" parallel="instances"
 	thread-count="4">
 
 	<test name="stats_integration">
 		<packages>
-			<package name="com.wandrell.tabletop.testing.stats.test.integration.*" />
+			<package name="com.wandrell.tabletop.stats.test.integration.*" />
 		</packages>
 	</test>
 

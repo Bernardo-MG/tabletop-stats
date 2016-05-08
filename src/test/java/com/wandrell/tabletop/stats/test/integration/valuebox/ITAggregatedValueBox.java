@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.wandrell.tabletop.testing.stats.test.integration.valuebox;
+package com.wandrell.tabletop.stats.test.integration.valuebox;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

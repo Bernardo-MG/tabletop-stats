@@ -1,4 +1,4 @@
-package com.wandrell.tabletop.testing.stats.test.unit.valuebox.exception;
+package com.wandrell.tabletop.stats.test.unit.valuebox;
 
 import org.testng.annotations.Test;
 
