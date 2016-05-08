@@ -73,7 +73,12 @@ public final class AggregatedValueBox extends AbstractValueBoxEventFirer {
      */
     private final Collection<ValueBox> valueBoxes = new LinkedList<ValueBox>();
 
-    {
+    /**
+     * Constructs an {@code AggregatedValueBox}.
+     */
+    public AggregatedValueBox() {
+        super();
+
         // The ValueChangeListener is initialized
         // It will update the aggregated value with the value change
         listenerValues = new ValueChangeListener() {
@@ -87,13 +92,6 @@ public final class AggregatedValueBox extends AbstractValueBoxEventFirer {
     }
 
     /**
-     * Constructs an {@code AggregatedValueBox}.
-     */
-    public AggregatedValueBox() {
-        super();
-    }
-
-    /**
      * Copy constructor for {@code AggregatedValueBox}.
      * <p>
      * The full collection of {@code ValueBox} instances will be copied into the
@@ -104,7 +102,7 @@ public final class AggregatedValueBox extends AbstractValueBoxEventFirer {
      *            the {@code AggregatedValueBox} to copy
      */
     public AggregatedValueBox(final AggregatedValueBox box) {
-        super();
+        this();
 
         checkNotNull(box, "Received a null pointer as value box");
 
@@ -120,7 +118,7 @@ public final class AggregatedValueBox extends AbstractValueBoxEventFirer {
      *            the boxes to be aggregated
      */
     public AggregatedValueBox(final ValueBox... boxes) {
-        super();
+        this();
 
         checkNotNull(boxes, "Received a null pointer as value boxes");
 

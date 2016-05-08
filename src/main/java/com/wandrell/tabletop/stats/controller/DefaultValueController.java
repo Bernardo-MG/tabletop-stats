@@ -35,22 +35,22 @@ public final class DefaultValueController implements ValueController {
     /**
      * The step marking the change to be applied on the value.
      */
-    private final Integer changeStep = 1;
+    private static final Integer CHANGE_STEP = 1;
 
     /**
      * The {@code ValueBox} to be handled.
      */
-    private ValueBox      handledValue;
+    private ValueBox             handledValue;
 
     /**
      * Minimum allowed value.
      */
-    private Integer       limitLower = Integer.MIN_VALUE;
+    private Integer              limitLower  = Integer.MIN_VALUE;
 
     /**
      * Maximum allowed value.
      */
-    private Integer       limitUpper = Integer.MAX_VALUE;
+    private Integer              limitUpper  = Integer.MAX_VALUE;
 
     /**
      * Constructs a {@code DefaultValueController} with no {@code ValueBox}.
@@ -182,7 +182,7 @@ public final class DefaultValueController implements ValueController {
      * @return the modification step
      */
     private final Integer getStep() {
-        return changeStep;
+        return CHANGE_STEP;
     }
 
     /**
