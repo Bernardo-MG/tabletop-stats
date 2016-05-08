@@ -27,12 +27,13 @@ import com.wandrell.tabletop.stats.event.ValueChangeListener;
 import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
- * Abstract unit test for {@link ValueBox}, checking that events data is handled
- * in the correct order.
+ * Abstract unit test for {@link ValueBox}, checking that events are handled
+ * correctly.
  * <p>
  * Checks the following cases:
  * <ol>
  * <li>The value change event receives the new value set to the value box.</li>
+ * <li>The value change event has the correct context.</li>
  * </ol>
  * 
  * @author Bernardo Martínez Garrido

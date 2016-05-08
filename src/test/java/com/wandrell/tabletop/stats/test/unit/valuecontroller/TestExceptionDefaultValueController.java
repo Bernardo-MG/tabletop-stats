@@ -12,8 +12,7 @@ import com.wandrell.tabletop.stats.controller.ValueController;
  * <p>
  * Checks the following cases:
  * <ol>
- * <li>The {@code setInterval} method throws an {@code IllegalArgumentException}
- * when the interval is invalid.</li>
+ * <li>Invalid intervals throw an exception.</li>
  * </ol>
  * 
  * @author Bernardo Martínez Garrido
@@ -28,15 +27,14 @@ public final class TestExceptionDefaultValueController {
     }
 
     /**
-     * Tests that the {@code setInterval} method throws an
-     * {@code IllegalArgumentException} when the interval is invalid.
+     * Tests that invalid intervals throw an exception.
      */
     @Test(expectedExceptions = IllegalArgumentException.class)
     public final void testSetInterval_Invalid() {
-        final ValueController handler;
+        final ValueController controller; // Controller being tested
 
-        handler = new DefaultValueController();
+        controller = new DefaultValueController();
 
-        handler.setInterval(10, 0);
+        controller.setInterval(10, 0);
     }
 }

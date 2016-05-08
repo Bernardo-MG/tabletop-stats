@@ -21,8 +21,8 @@ import com.wandrell.tabletop.stats.valuebox.DefaultValueBox;
 import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
- * Unit tests for {@link DefaultValueBox} implementing
- * {@code AbstractTestEventDefaultValueBox}.
+ * Unit tests for {@link DefaultValueBox}, checking that events are handled
+ * correctly.
  * 
  * @author Bernardo Martínez Garrido
  */

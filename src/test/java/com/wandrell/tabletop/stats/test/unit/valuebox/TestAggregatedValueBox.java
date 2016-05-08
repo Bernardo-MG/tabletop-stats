@@ -82,8 +82,8 @@ public final class TestAggregatedValueBox {
     }
 
     /**
-     * Tests that the aggregated value is set to the upper limit when adding a
-     * {@code ValueBox} would cause overflow.
+     * Tests that the aggregated value is set to the lower limit when adding a
+     * {@code ValueBox} would cause underflow.
      */
     @Test
     public final void testGetValue_addValue_overflow_neg() {
@@ -105,8 +105,8 @@ public final class TestAggregatedValueBox {
     }
 
     /**
-     * Tests that the aggregated value is set to the lower limit when adding a
-     * {@code ValueBox} would cause underflow.
+     * Tests that the aggregated value is set to the upper limit when adding a
+     * {@code ValueBox} would cause overflow.
      */
     @Test
     public final void testGetValue_addValue_overflow_pos() {

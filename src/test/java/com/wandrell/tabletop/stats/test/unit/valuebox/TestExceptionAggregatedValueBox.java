@@ -27,7 +27,7 @@ public final class TestExceptionAggregatedValueBox {
     }
 
     /**
-     * Testa than an {@code IllegalArgumentException} is thrown when the
+     * Tests than an {@code IllegalArgumentException} is thrown when the
      * {@code AggregatedValueBox} tries to add itself.
      */
     @Test(expectedExceptions = IllegalArgumentException.class)

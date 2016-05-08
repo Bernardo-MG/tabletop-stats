@@ -30,18 +30,16 @@ import com.wandrell.tabletop.stats.valuebox.ValueBox;
  * <p>
  * Checks the following cases:
  * <ol>
- * <li>The {@link ValueBox} is increased by the {@code increaseValue()} method
- * when it is possible to increase.</li>
- * <li>The {@link ValueBox} is not modified by the {@code increaseValue()}
- * method when the value is at the upper limit.</li>
- * <li>The {@link ValueBox} is not modified by the {@code increaseValue()}
- * method when the value is over the upper limit.</li>
- * <li>The {@link ValueBox} is decreased by the {@code decreaseValue()} method
- * when it is possible to decrease.</li>
- * <li>The {@link ValueBox} is not modified by the {@code decreaseValue()}
- * method when the value is at the lower limit.</li>
- * <li>The {@link ValueBox} is not modified by the {@code decreaseValue()}
- * method when the value is under the lower limit.</li>
+ * <li>The {@code ValueBox} is increased when it is possible to increase.</li>
+ * <li>The {@code ValueBox} is not modified when the value is at the upper
+ * limit.</li>
+ * <li>The {@code ValueBox} is not modified when the value is over the upper
+ * limit.</li>
+ * <li>The {@code ValueBox} is decreased when it is possible to decrease.</li>
+ * <li>The {@code ValueBox} is not modified when the value is at the lower
+ * limit.</li>
+ * <li>The {@code ValueBox} is not modified when the value is under the lower
+ * limit.</li>
  * </ol>
  * 
  * @author Bernardo Martínez Garrido
@@ -56,111 +54,111 @@ public final class ITDefaultValueController {
     }
 
     /**
-     * Tests that the {@link ValueBox} is decreased by the
-     * {@code decreaseValue()} method when it is possible to decrease.
+     * Tests that the {@code ValueBox} is decreased when it is possible to
+     * decrease.
      */
     @Test
     public final void testDecrease_Able() {
-        final ValueController handler; // The tested ValueController
-        final ValueBox value;          // The contained ValueBox
+        final ValueController controller; // The tested controller
+        final ValueBox box;               // The contained value box
 
-        value = new DefaultValueBox(1);
+        box = new DefaultValueBox(1);
 
-        handler = new DefaultValueController(value);
-        handler.setInterval(-10, Integer.MAX_VALUE);
+        controller = new DefaultValueController(box);
+        controller.setInterval(-10, Integer.MAX_VALUE);
 
-        handler.decreaseValue();
-        Assert.assertEquals((Integer) 0, value.getValue());
+        controller.decreaseValue();
+        Assert.assertEquals((Integer) 0, box.getValue());
     }
 
     /**
-     * Tests that the {@link ValueBox} is not modified by the
-     * {@code decreaseValue()} method when the value is at the lower limit.
+     * Tests that the {@code ValueBox} is not modified when the value is at the
+     * lower limit.
      */
     @Test
     public final void testDecrease_Unable_AtLimit() {
-        final ValueController handler; // The tested ValueController
-        final ValueBox value;          // The contained ValueBox
+        final ValueController controller; // The tested controller
+        final ValueBox box;               // The contained value box
 
-        value = new DefaultValueBox(1);
+        box = new DefaultValueBox(1);
 
-        handler = new DefaultValueController(value);
-        handler.setInterval(1, Integer.MAX_VALUE);
+        controller = new DefaultValueController(box);
+        controller.setInterval(1, Integer.MAX_VALUE);
 
-        handler.decreaseValue();
-        Assert.assertEquals((Integer) 1, value.getValue());
+        controller.decreaseValue();
+        Assert.assertEquals((Integer) 1, box.getValue());
     }
 
     /**
-     * Tests that the {@link ValueBox} is not modified by the
-     * {@code decreaseValue()} method when the value is under the lower limit.
+     * Tests that the {@code ValueBox} is not modified when the value is under
+     * the lower limit.
      */
     @Test
     public final void testDecrease_Unable_UnderLimit() {
-        final ValueController handler; // The tested ValueController
-        final ValueBox value;          // The contained ValueBox
+        final ValueController controller; // The tested controller
+        final ValueBox box;               // The contained value box
 
-        value = new DefaultValueBox(1);
+        box = new DefaultValueBox(1);
 
-        handler = new DefaultValueController(value);
-        handler.setInterval(5, Integer.MAX_VALUE);
+        controller = new DefaultValueController(box);
+        controller.setInterval(5, Integer.MAX_VALUE);
 
-        handler.decreaseValue();
-        Assert.assertEquals((Integer) 1, value.getValue());
+        controller.decreaseValue();
+        Assert.assertEquals((Integer) 1, box.getValue());
     }
 
     /**
-     * Tests that the {@link ValueBox} is increased by the
-     * {@code increaseValue()} method when it is possible to increase.
+     * Tests that the {@code ValueBox} is increased when it is possible to
+     * increase.
      */
     @Test
     public final void testIncrease_Able() {
-        final ValueController handler; // The tested ValueController
-        final ValueBox value;          // The contained ValueBox
+        final ValueController controller; // The tested controller
+        final ValueBox box;               // The contained value box
 
-        value = new DefaultValueBox(1);
+        box = new DefaultValueBox(1);
 
-        handler = new DefaultValueController(value);
-        handler.setInterval(Integer.MIN_VALUE, 10);
+        controller = new DefaultValueController(box);
+        controller.setInterval(Integer.MIN_VALUE, 10);
 
-        handler.increaseValue();
-        Assert.assertEquals((Integer) 2, value.getValue());
+        controller.increaseValue();
+        Assert.assertEquals((Integer) 2, box.getValue());
     }
 
     /**
-     * Tests that the {@link ValueBox} is not modified by the
-     * {@code increaseValue()} method when the value is at the upper limit.
+     * Tests that the {@code ValueBox} is not modified when the value is at the
+     * upper limit.
      */
     @Test
     public final void testIncrease_Unable_AtLimit() {
-        final ValueController handler; // The tested ValueController
-        final ValueBox value;          // The contained ValueBox
+        final ValueController controller; // The tested controller
+        final ValueBox box;               // The contained value box
 
-        value = new DefaultValueBox(1);
+        box = new DefaultValueBox(1);
 
-        handler = new DefaultValueController(value);
-        handler.setInterval(Integer.MIN_VALUE, 1);
+        controller = new DefaultValueController(box);
+        controller.setInterval(Integer.MIN_VALUE, 1);
 
-        handler.increaseValue();
-        Assert.assertEquals((Integer) 1, value.getValue());
+        controller.increaseValue();
+        Assert.assertEquals((Integer) 1, box.getValue());
     }
 
     /**
-     * Tests that the {@link ValueBox} is not modified by the
-     * {@code increaseValue()} method when the value is over the upper limit.
+     * Tests that the {@code ValueBox} is not modified when the value is over
+     * the upper limit.
      */
     @Test
     public final void testIncrease_Unable_OverLimit() {
-        final ValueController handler; // The tested ValueController
-        final ValueBox value;          // The contained ValueBox
+        final ValueController controller; // The tested controller
+        final ValueBox box;               // The contained value box
 
-        value = new DefaultValueBox(1);
+        box = new DefaultValueBox(1);
 
-        handler = new DefaultValueController(value);
-        handler.setInterval(Integer.MIN_VALUE, 1);
+        controller = new DefaultValueController(box);
+        controller.setInterval(Integer.MIN_VALUE, 1);
 
-        handler.increaseValue();
-        Assert.assertEquals((Integer) 1, value.getValue());
+        controller.increaseValue();
+        Assert.assertEquals((Integer) 1, box.getValue());
     }
 
 }
