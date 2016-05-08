@@ -45,12 +45,12 @@ import com.wandrell.tabletop.stats.valuebox.ValueBox;
  * 
  * @author Bernardo Martínez Garrido
  */
-public final class TestDecreaseIncreaseDefaultValueHandler {
+public final class TestDecreaseIncreaseDefaultValueController {
 
     /**
-     * Constructs a {@code TestDecreaseIncreaseDefaultValueHandler}.
+     * Default constructor.
      */
-    public TestDecreaseIncreaseDefaultValueHandler() {
+    public TestDecreaseIncreaseDefaultValueController() {
         super();
     }
 

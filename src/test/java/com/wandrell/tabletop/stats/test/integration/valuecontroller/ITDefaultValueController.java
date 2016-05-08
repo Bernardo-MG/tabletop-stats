@@ -46,12 +46,12 @@ import com.wandrell.tabletop.stats.valuebox.ValueBox;
  * 
  * @author Bernardo Martínez Garrido
  */
-public final class ITAggregateValueBox {
+public final class ITDefaultValueController {
 
     /**
-     * Constructs an {@code ITAggregateValueBox}.
+     * Default constructor.
      */
-    public ITAggregateValueBox() {
+    public ITDefaultValueController() {
         super();
     }
 

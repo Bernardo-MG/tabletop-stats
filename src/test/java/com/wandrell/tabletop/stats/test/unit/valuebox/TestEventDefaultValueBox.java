@@ -16,8 +16,9 @@
 
 package com.wandrell.tabletop.stats.test.unit.valuebox;
 
-import com.wandrell.tabletop.stats.test.util.test.unit.AbstractTestEventDefaultValueBox;
+import com.wandrell.tabletop.stats.test.util.test.unit.valuebox.AbstractTestEventValueBox;
 import com.wandrell.tabletop.stats.valuebox.DefaultValueBox;
+import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
  * Unit tests for {@link DefaultValueBox} implementing
@@ -25,14 +26,18 @@ import com.wandrell.tabletop.stats.valuebox.DefaultValueBox;
  * 
  * @author Bernardo Martínez Garrido
  */
-public final class TestEventDefaultValueBox
-        extends AbstractTestEventDefaultValueBox {
+public final class TestEventDefaultValueBox extends AbstractTestEventValueBox {
 
     /**
-     * Constructs a {@code TestEventDefaultValueBox}.
+     * Default constructor.
      */
     public TestEventDefaultValueBox() {
-        super(new DefaultValueBox(0));
+        super();
+    }
+
+    @Override
+    protected final ValueBox getValueBox() {
+        return new DefaultValueBox(0);
     }
 
 }

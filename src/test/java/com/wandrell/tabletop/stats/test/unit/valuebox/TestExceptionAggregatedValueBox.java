@@ -20,7 +20,7 @@ import com.wandrell.tabletop.stats.valuebox.AggregatedValueBox;
 public final class TestExceptionAggregatedValueBox {
 
     /**
-     * Constructs a {@code TestExceptionAggregatedValueBox}.
+     * Default constructor.
      */
     public TestExceptionAggregatedValueBox() {
         super();

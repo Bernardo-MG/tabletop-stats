@@ -21,7 +21,7 @@ import com.wandrell.tabletop.stats.controller.ValueController;
 public final class TestExceptionDefaultValueController {
 
     /**
-     * Constructs a {@code TestExceptionDefaultValueController}.
+     * Default constructor.
      */
     public TestExceptionDefaultValueController() {
         super();

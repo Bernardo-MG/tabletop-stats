@@ -52,7 +52,7 @@ import com.wandrell.tabletop.stats.valuebox.ValueBox;
 public final class TestAggregatedValueBox {
 
     /**
-     * Constructs an {@code TestAggregatedValueBox}.
+     * Default constructor.
      */
     public TestAggregatedValueBox() {
         super();

@@ -16,8 +16,9 @@
 
 package com.wandrell.tabletop.stats.test.unit.valuebox;
 
-import com.wandrell.tabletop.stats.test.util.test.unit.AbstractTestEventDefaultValueBox;
+import com.wandrell.tabletop.stats.test.util.test.unit.valuebox.AbstractTestEventValueBox;
 import com.wandrell.tabletop.stats.valuebox.DefaultSkillBox;
+import com.wandrell.tabletop.stats.valuebox.ValueBox;
 
 /**
  * Unit tests for {@link DefaultSkillBox} implementing
@@ -25,14 +26,18 @@ import com.wandrell.tabletop.stats.valuebox.DefaultSkillBox;
  * 
  * @author Bernardo Martínez Garrido
  */
-public final class TestEventDefaultSkillBox
-        extends AbstractTestEventDefaultValueBox {
+public final class TestEventDefaultSkillBox extends AbstractTestEventValueBox {
 
     /**
-     * Constructs a {@code TestEventDefaultSkillBox}.
+     * Default constructor.
      */
     public TestEventDefaultSkillBox() {
-        super(new DefaultSkillBox("skill", 0));
+        super();
+    }
+
+    @Override
+    protected ValueBox getValueBox() {
+        return new DefaultSkillBox("skill", 0);
     }
 
 }

@@ -41,7 +41,7 @@ import com.wandrell.tabletop.stats.valuebox.ValueBox;
 public final class ITAggregatedValueBox {
 
     /**
-     * Constructs an {@code ITAggregatedValueBox}.
+     * Default constructor.
      */
     public ITAggregatedValueBox() {
         super();
