@@ -13,6 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
+
 package com.wandrell.tabletop.stats.test.util.test.unit;
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -77,6 +78,7 @@ public abstract class AbstractTestEventOrderDefaultSkillBox {
 
         // The listener sets the value stored in the list
         box.addValueChangeListener(new ValueChangeListener() {
+
             @Override
             public void valueChanged(final ValueChangeEvent evt) {
                 listResult.set(0, ((ValueBox) evt.getSource()).getValue());

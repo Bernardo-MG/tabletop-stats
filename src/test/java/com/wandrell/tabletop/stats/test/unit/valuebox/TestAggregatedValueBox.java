@@ -13,6 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
+
 package com.wandrell.tabletop.stats.test.unit.valuebox;
 
 import org.mockito.Mockito;
@@ -39,7 +40,8 @@ import com.wandrell.tabletop.stats.valuebox.ValueBox;
  * <li>The aggregated value is set to the lower limit when the initial
  * {@code ValueBox} instances would cause underflow.</li>
  * <li>The aggregated value is 0 by default.</li>
- * <li>The aggregated is set correctly when using a single {@code ValueBox}.</li>
+ * <li>The aggregated is set correctly when using a single {@code ValueBox}.
+ * </li>
  * <li>The aggregated is set correctly when using two {@code ValueBox}.</li>
  * <li>Removing all the {@code ValueBox} instances sets the aggregate value to
  * 0.</li>

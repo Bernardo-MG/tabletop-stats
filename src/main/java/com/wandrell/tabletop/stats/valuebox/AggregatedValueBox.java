@@ -13,6 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
+
 package com.wandrell.tabletop.stats.valuebox;
 
 import static com.google.common.base.Preconditions.checkArgument;
@@ -58,10 +59,12 @@ public final class AggregatedValueBox extends AbstractValueBoxEventFirer {
      * value is updated.
      */
     private Integer                    aggregated = 0;
+
     /**
      * The listener to be added into any inserted {@code ValueBox}.
      */
     private ValueChangeListener        listenerValues;
+
     /**
      * Collection with all the {@code ValueBox} classes being aggregated.
      * <p>
@@ -209,7 +212,8 @@ public final class AggregatedValueBox extends AbstractValueBoxEventFirer {
      */
     @Override
     public final void setValue(final Integer value) {
-        throw new UnsupportedOperationException("Setting the value is disabled");
+        throw new UnsupportedOperationException(
+                "Setting the value is disabled");
     }
 
     /**

@@ -27,5 +27,5 @@
  * the use of buttons, and a series of constraints such as the interval in which
  * the value can move.
  */
-package com.wandrell.tabletop.stats.controller;
 
+package com.wandrell.tabletop.stats.controller;

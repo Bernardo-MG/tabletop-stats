@@ -13,6 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
+
 package com.wandrell.tabletop.stats.valuebox;
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -28,12 +29,14 @@ import com.google.common.base.Objects;
  * 
  * @author Bernardo Martínez Garrido
  */
-public final class DefaultSkillBox extends AbstractValueBox implements SkillBox {
+public final class DefaultSkillBox extends AbstractValueBox
+        implements SkillBox {
 
     /**
      * The skill's descriptor.
      */
     private final String skillDescriptor;
+
     /**
      * The skill's name.
      */

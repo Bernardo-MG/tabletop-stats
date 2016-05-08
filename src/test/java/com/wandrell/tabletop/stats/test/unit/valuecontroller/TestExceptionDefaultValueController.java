@@ -1,3 +1,4 @@
+
 package com.wandrell.tabletop.stats.test.unit.valuecontroller;
 
 import org.testng.annotations.Test;

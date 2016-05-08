@@ -32,5 +32,5 @@
  * {@link com.wandrell.tabletop.stats.valuebox.AbstractValueBoxEventFirer
  * AbstractValueBox}.
  */
-package com.wandrell.tabletop.stats.event;
 
+package com.wandrell.tabletop.stats.event;

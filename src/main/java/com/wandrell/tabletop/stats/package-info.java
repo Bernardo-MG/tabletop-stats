@@ -38,5 +38,5 @@
  * help from the more generic {@link com.wandrell.tabletop.stats.event event}
  * package.
  */
-package com.wandrell.tabletop.stats;
 
+package com.wandrell.tabletop.stats;

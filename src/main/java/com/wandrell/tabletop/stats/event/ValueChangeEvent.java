@@ -13,6 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
+
 package com.wandrell.tabletop.stats.event;
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -46,10 +47,12 @@ public final class ValueChangeEvent extends EventObject {
      * Serialization id.
      */
     private static final long serialVersionUID = -4908049306092542940L;
+
     /**
      * The value after the event has happened.
      */
     private final Integer     newValue;
+
     /**
      * The value before the event has happened.
      */

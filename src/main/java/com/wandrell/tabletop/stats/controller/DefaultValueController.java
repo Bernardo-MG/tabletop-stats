@@ -13,6 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
+
 package com.wandrell.tabletop.stats.controller;
 
 import static com.google.common.base.Preconditions.checkArgument;
@@ -35,14 +36,17 @@ public final class DefaultValueController implements ValueController {
      * The step marking the change to be applied on the value.
      */
     private final Integer changeStep = 1;
+
     /**
      * The {@code ValueBox} to be handled.
      */
     private ValueBox      handledValue;
+
     /**
      * Minimum allowed value.
      */
     private Integer       limitLower = Integer.MIN_VALUE;
+
     /**
      * Maximum allowed value.
      */
